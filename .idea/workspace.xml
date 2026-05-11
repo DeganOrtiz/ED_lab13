@@ -46,7 +46,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ed.lab.ed1labo04.controller in ed1-labo04">
+    <configuration name="ed.lab.ed1labo04.controller in ed1-labo04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ed1-labo04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ed.lab.ed1labo04.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ed.lab.ed1labo04.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ed1Labo04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ed1-labo04" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ed.lab.ed1labo04.Ed1Labo04Application" />
@@ -54,6 +68,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ed.lab.ed1labo04.controller in ed1-labo04" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -70,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778462467292</updated>
-      <workItem from="1778462468215" duration="1407000" />
+      <workItem from="1778462468215" duration="1936000" />
     </task>
     <servers />
   </component>
