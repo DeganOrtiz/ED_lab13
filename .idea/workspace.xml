@@ -27,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.ed.lab.ed1labo04.controller in ed1-labo04.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -90,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1778462467292</updated>
       <workItem from="1778462468215" duration="1936000" />
-      <workItem from="1778540679276" duration="704000" />
+      <workItem from="1778540679276" duration="2159000" />
+      <workItem from="1778543004539" duration="371000" />
     </task>
     <servers />
   </component>
