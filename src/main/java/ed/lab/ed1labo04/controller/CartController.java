@@ -25,6 +25,7 @@ public class CartController {
             return new ResponseEntity<>(cart, HttpStatus.CREATED);
 
         } catch (RuntimeException e) {
+            e.printStackTrace();
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
     }

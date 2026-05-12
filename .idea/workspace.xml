@@ -38,6 +38,10 @@
     "JUnit.E02CartControllerTest.executor": "Run",
     "JUnit.ed.lab.ed1labo04.controller in ed1-labo04.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -134,7 +138,7 @@
       <updated>1778462467292</updated>
       <workItem from="1778462468215" duration="1936000" />
       <workItem from="1778540679276" duration="2159000" />
-      <workItem from="1778543004539" duration="18694000" />
+      <workItem from="1778543004539" duration="22051000" />
     </task>
     <servers />
   </component>
