@@ -43,18 +43,12 @@ public class ProductService {
             throw new IllegalArgumentException("Quantity must be greater or equal to 0");
         }
 
-        Optional<ProductEntity> optionalProduct = productRepository.findById(id);
+        ProductEntity product = productRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Price not found"));
 
-        if (optionalProduct.isEmpty()) {
-            throw new IllegalArgumentException("Product not found");
-        }
+        product.setPrice(updateProductRequest.getPrice());
+        product.setQuantity(updateProductRequest.getQuantity());
 
-        ProductEntity productEntity = optionalProduct.get();
-
-        productEntity.setPrice(updateProductRequest.getPrice());
-        productEntity.setQuantity(updateProductRequest.getQuantity());
-
-        return productRepository.save(productEntity);
+        return productRepository.save(product);
     }
 
     public List<ProductEntity> getAllProducts(){

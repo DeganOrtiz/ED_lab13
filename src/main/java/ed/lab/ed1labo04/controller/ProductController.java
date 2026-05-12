@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+//import java.util.Optional;
 
 @RestController
 @RequestMapping("/product")
@@ -26,9 +27,10 @@ public class ProductController {
 
         try{
 
-            ProductEntity product = productService.createProduct(createProductRequest);
+            return new ResponseEntity<>(
+                    productService.createProduct(createProductRequest), HttpStatus.CREATED
+            );
 
-            return new ResponseEntity<>(product, HttpStatus.CREATED);
         } catch (IllegalArgumentException e){
 
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
@@ -42,9 +44,8 @@ public class ProductController {
 
         try {
 
-            ProductEntity product = productService.updateProduct(id, updateProductRequest);
+            return ResponseEntity.ok(productService.updateProduct(id, updateProductRequest) );
 
-            return new ResponseEntity<>(product, HttpStatus.OK);
         } catch (IllegalArgumentException e){
 
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
@@ -54,20 +55,14 @@ public class ProductController {
     @GetMapping("/{id}")
     public ResponseEntity<ProductEntity> getProduct(@PathVariable long id){
 
-        Optional<ProductEntity> optionalProduct = productService.getProductById(id);
-
-        if (optionalProduct.isEmpty()){
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-
-        return new ResponseEntity<>(optionalProduct.get(), HttpStatus.OK);
+        return productService.getProductById(id)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
 
     @GetMapping
     public ResponseEntity<List<ProductEntity>> getAllProducts(){
 
-        List<ProductEntity> products = productService.getAllProducts();
-
-        return new ResponseEntity<>(products, HttpStatus.OK);
+        return ResponseEntity.ok(productService.getAllProducts());
     }
 }
