@@ -52,11 +52,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.settings.perforce.mcp",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.E01ProductControllerTest">
+  <component name="RunManager" selected="JUnit.ed.lab.ed1labo04.controller in ed1-labo04">
     <configuration name="E01ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ed1-labo04" />
       <extension name="coverage">
@@ -110,9 +111,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ed.lab.ed1labo04.controller in ed1-labo04" />
         <item itemvalue="JUnit.E01ProductControllerTest" />
         <item itemvalue="JUnit.E02CartControllerTest" />
-        <item itemvalue="JUnit.ed.lab.ed1labo04.controller in ed1-labo04" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +134,7 @@
       <updated>1778462467292</updated>
       <workItem from="1778462468215" duration="1936000" />
       <workItem from="1778540679276" duration="2159000" />
-      <workItem from="1778543004539" duration="13033000" />
+      <workItem from="1778543004539" duration="13991000" />
     </task>
     <servers />
   </component>
