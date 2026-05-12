@@ -57,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ed.lab.ed1labo04.controller in ed1-labo04">
+  <component name="RunManager" selected="Spring Boot.Ed1Labo04Application">
     <configuration name="E01ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ed1-labo04" />
       <extension name="coverage">
@@ -134,7 +134,7 @@
       <updated>1778462467292</updated>
       <workItem from="1778462468215" duration="1936000" />
       <workItem from="1778540679276" duration="2159000" />
-      <workItem from="1778543004539" duration="13991000" />
+      <workItem from="1778543004539" duration="18694000" />
     </task>
     <servers />
   </component>
